@@ -19,6 +19,8 @@ Will get transformed into
 "Foo=someValue"
 ```
 
+When https://github.com/aws/aws-cli/issues/3445 is resolved, this package won't be needed.
+
 ## Installation
 
 ```

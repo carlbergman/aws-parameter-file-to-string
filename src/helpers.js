@@ -18,7 +18,7 @@ const awsParameterFileToString = (parameterFile) => {
     throw new Error(`${parameterFile} must be an array`);
   }
 
-  const str = j.map(({ ParameterKey, ParameterValue }) => `"${ParameterKey}=${ParameterValue}"`);
+  const str = j.map(({ ParameterKey, ParameterValue }) => `${ParameterKey}=${ParameterValue}`);
 
   return str.join(' ');
 };

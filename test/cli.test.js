@@ -11,7 +11,7 @@ describe('Transform AWS parameter file to string', () => {
       ],
       (error, stdout) => {
         expect(error).to.equal(null);
-        expect(stdout).to.equal('"Foo=someValue" "Bar=some Value with spaces" "Baz=Valuewith*"\n');
+        expect(stdout).to.equal('Foo=someValue\n');
         done();
       },
     );
