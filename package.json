@@ -7,6 +7,10 @@
   "scripts": {
     "test": "nyc mocha"
   },
+  "keywords": [
+    "aws",
+    "cloudformation"
+  ],
   "author": "Carl Bergman, <bergman.carl@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -19,5 +23,15 @@
   },
   "dependencies": {
     "stdio": "^0.2.7"
+  },
+  "engines": {
+    "node": ">=8.11.4"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlbergman/aws-parameter-file-to-string"
   }
 }
