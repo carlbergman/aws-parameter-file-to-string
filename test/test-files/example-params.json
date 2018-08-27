@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "Foo",
+    "ParameterValue": "someValue"
+  },
+  {
+    "ParameterKey": "Bar",
+    "ParameterValue": "some Value with spaces"
+  },
+  {
+    "ParameterKey": "Baz",
+    "ParameterValue": "Valuewith*"
+  }
+]
