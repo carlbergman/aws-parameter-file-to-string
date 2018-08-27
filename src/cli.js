@@ -9,10 +9,10 @@ const ops = stdio.getopt(
       key: 'i',
       args: 1,
       description: 'The path to an AWS parameter file in JSON format',
-      mandatory: true
-    }
+      mandatory: true,
+    },
   },
-  'aws-parameter-file-to-string -i path/to/param-file.json'
+  'aws-parameter-file-to-string -i path/to/param-file.json',
 );
 
 try {

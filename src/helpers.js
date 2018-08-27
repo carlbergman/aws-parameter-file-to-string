@@ -24,5 +24,5 @@ const awsParameterFileToString = (parameterFile) => {
 };
 
 module.exports = {
-  awsParameterFileToString
+  awsParameterFileToString,
 };
